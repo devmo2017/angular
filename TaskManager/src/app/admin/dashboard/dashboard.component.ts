@@ -28,7 +28,7 @@ export class DashboardComponent implements OnInit {
 
   ngOnInit() {
     this.Designation = "Team Leader";
-    this.Username = "Scott Smith";
+    this.Username = "Mohit Richharya";
     this.NoOfTeamMembers = 67;
     this.TotalCostOfAllProjects = 240;
     this.PendingTasks = 15;
@@ -39,9 +39,9 @@ export class DashboardComponent implements OnInit {
     this.ToDay = new Date();
 
     this.Clients = [
-      "ABC Infotech Ltd.",
-      "DEF Software Solutions",
-      "GHI Industries"
+      "AHA Technologies Guru.",
+      "Church In The Canyon",
+      "Prosper2000"
     ];
 
     this.Projects = ["Project A", "Project B", "Project C", "Project D"];
@@ -56,19 +56,19 @@ export class DashboardComponent implements OnInit {
       {
         Region: "East",
         Members: [
-          { ID: 1, Name: "Ford", Status: "Available" },
-          { ID: 2, Name: "Miller", Status: "Available" },
-          { ID: 3, Name: "Jones", Status: "Busy" },
-          { ID: 4, Name: "James", Status: "Busy" }
+          { ID: 1, Name: "Denise", Status: "Available" },
+          { ID: 2, Name: "Mike", Status: "Available" },
+          { ID: 3, Name: "Jason", Status: "Busy" },
+          { ID: 4, Name: "Sana", Status: "Busy" }
         ]
       },
       {
         Region: "West",
         Members: [
-          { ID: 5, Name: "Anna", Status: "Available" },
-          { ID: 6, Name: "Arun", Status: "Available" },
-          { ID: 7, Name: "Varun", Status: "Busy" },
-          { ID: 8, Name: "Jasmine", Status: "Busy" }
+          { ID: 5, Name: "Hemansh", Status: "Available" },
+          { ID: 6, Name: "Tony", Status: "Available" },
+          { ID: 7, Name: "Jeremy", Status: "Busy" },
+          { ID: 8, Name: "John", Status: "Busy" }
         ]
       },
       {
